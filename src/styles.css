@@ -1,0 +1,40 @@
+body {
+background-image: url("https://ak9.picdn.net/shutterstock/videos/16719199/thumb/1.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+.jumbotron {
+  margin: 25px;
+}
+h1 {
+  text-align: center;
+  font-size: 75px;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+p{
+  float: left;
+  text-indent: 20px;
+  margin-top: 50px;
+}
+
+#name {
+  float: right;
+}
+
+.actions {
+  display: none;
+}
+
+.stats {
+  display: none;
+  text-align: center;
+  
+}

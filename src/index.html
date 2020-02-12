@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Tamagotchi</title>
+</head>
+
+<body>
+  <div class="container">
+    <div class="jumbotron">
+      <h1>Tamagotchi</h1>
+    </div>
+    <div class="row">
+      <img src="https://appstickers-cdn.appadvice.com/1165836856/819430628/e158e4495383d32e562c28d2f8fabb9d-3.png" alt="picture of a 8-bit virtual dog">
+    </div>
+    <div class="stats">
+      <h3>Name:<span class="showName"></span></h3>
+      <h3>Health:<span class="showHealth"></span></h3>
+      <h3>Food Level:<span class="showFoodLevel"></span></h3>
+    </div>
+    <div id="introBox" class="box1">
+      <p>Hello! I'm your new Tamagotchi! Just like all pets in the real world, I'm relying on you to feed me, take me on walks, let me nap, and even give me toys to play with. First thing's first! Before we start our forever journey together... give me a name please!</p>
+    </div>
+    <form id="name">
+      <div class="form-group">
+        <label for ="name">Name:</label>
+        <input type="name" class="form-group" id="userName" placeholder="Name">
+      </div>
+      <button type="submit" class="btn btn-success btn-lg">Enter</button>
+    </form>
+    <div class="actions">
+      <button type="button" id="Feed" class="btn btn-success btn-lg">Feed</button>
+      <button type="button" id="Walk" class="btn btn-info btn-lg">Walk</button>
+      <button type="button" id="Sleep" class="btn btn-dark btn-lg">Sleep</button>
+    </div>
+  </div>
+</body>
+</html>
